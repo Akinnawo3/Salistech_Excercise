@@ -1,0 +1,16 @@
+.add-item{
+    padding: 40px;
+    input[type='text']{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin: 6px 0;
+        background: darken($color: purple, $amount: 3);
+        color: white;
+        border: 0;
+    }
+    input[type='submit']{
+        padding: 5px;
+        background: darken($color: white, $amount: 1)
+    }
+}

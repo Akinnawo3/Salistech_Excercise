@@ -1,0 +1,39 @@
+.each-item {
+  margin: 0;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  background: #940094;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  list-style-type: none;
+}
+
+.title {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.title .edit {
+  margin-right: 10px;
+}
+
+.updateForm {
+  display: none;
+}
+.updateForm input[type=text] {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 6px 0;
+  background: #710071;
+  color: white;
+  border: 0;
+}
+.updateForm button {
+  width: 13%;
+  margin: 0 1%;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+}

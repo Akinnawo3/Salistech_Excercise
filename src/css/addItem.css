@@ -1,0 +1,16 @@
+.add-item {
+  padding: 40px;
+}
+.add-item input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 6px 0;
+  background: #710071;
+  color: white;
+  border: 0;
+}
+.add-item input[type=submit] {
+  padding: 5px;
+  background: #fcfcfc;
+}

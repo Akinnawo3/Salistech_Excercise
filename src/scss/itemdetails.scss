@@ -1,0 +1,43 @@
+.each-item{
+    margin: 0 ;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background: lighten($color: purple, $amount: 4);
+    padding: 5px;
+    text-align: left;
+    color: white;
+    list-style-type: none; 
+   
+
+}
+
+.title{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    .edit{
+        margin-right: 10px;
+    }  
+}
+
+
+
+.updateForm{
+    display: none;
+    input[type='text']{
+        width: 70%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin: 6px 0;
+        background: darken($color: purple, $amount: 3);
+        color: white;
+        border: 0;
+    }
+    button{
+        width: 13%;
+        margin: 0 1%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    }
+}
